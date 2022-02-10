@@ -4,8 +4,10 @@
 name: Lint & Build
 
 on:
-  branches-ignore:
-      - "main"
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build:
