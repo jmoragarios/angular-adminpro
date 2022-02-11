@@ -12,6 +12,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { PagesComponent } from './pages.component';
 import { Chart1Component } from './chart1/chart1.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -20,7 +21,8 @@ import { Chart1Component } from './chart1/chart1.component';
     DashboardComponent,
     ProgressComponent,
     PagesComponent,
-    Chart1Component
+    Chart1Component,
+    AccountSettingsComponent
   ],
   imports: [
     CommonModule,
